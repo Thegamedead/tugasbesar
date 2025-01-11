@@ -19,8 +19,8 @@ class RoleSeeder extends Seeder
         // Permission::create(['name' => 'view_book']);
         
         
-        Role::create(['name' => 'owner']);
-        Role::create(['name' => 'manager']);
+        Role::create(['name' => 'pemilik']);
+        Role::create(['name' => 'manajer']);
         Role::create(['name' => 'supervisor']);
         Role::create(['name' => 'pegawai-gudang']);
         Role::create(['name' => 'kasir']);
